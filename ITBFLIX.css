@@ -1,0 +1,12 @@
+*{
+    border:solid black;
+}
+header img{
+    width: 100%;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
