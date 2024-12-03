@@ -1,12 +1,83 @@
-*{
-    border:solid black;
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: antiquewhite;
 }
-header img{
-    width: 100%;
-    justify-content: center;
+header{
+    background-color: rgb(235, 16, 16);
+    padding: 1px;
+    text-align: center;
+    position: sticky; 
+    top: 0;
+}
+header h1{
+    color: aquamarine;
 }
 header ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+header a{
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bold;
+    padding: 10px ;
+}
+header a:hover{
+    color: white;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+section h2{
+    color: #E03C31;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+#actores h2{
+  text-align: center;
+}
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+article{
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 200px;
+}
+article img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+article h3{
+    color: #ee776ff5; 
+}
+article p{
+    text-align: justify;
+    padding: 5px;
+}
+article a{
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #E03C31;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+article a:hover{
+    background-color: aquamarine; 
+}
+footer{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 10px;
 }
