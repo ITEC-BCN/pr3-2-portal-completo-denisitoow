@@ -34,23 +34,24 @@ section h2{
     color: #E03C31;
     padding-left: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
-#actores h2{
-  text-align: center;
+#peliculas h2{
+  text-align: start;
 }
 .articulos{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
 article{
     background-color: #1c1c1c;
-    border: 1px solid #333;
-    padding: 3px;
+    border: solid #333 1px;
+    padding: 5px;
     text-align: center;
     border-radius: 10px;
-    max-width: 200px;
+    max-width: 195px;
+  
 }
 article img{
     max-width: 100%;
@@ -70,14 +71,31 @@ article a{
     background-color: #E03C31;
     color: white;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 article a:hover{
     background-color: aquamarine; 
+}
+#actores{
+    background-color: aliceblue;
+    padding-bottom: 10px;
+    color: #E03C31;
+    font-weight: bold;
+}
+#actores article{
+    border: 0px;
+    border-radius: 0%;
+    background-color: aliceblue;
+}
+#actores img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 footer{
     background-color: whitesmoke;
     color: black;
     text-align: center;
     padding: 10px;
+    margin-top: 20px;
 }
