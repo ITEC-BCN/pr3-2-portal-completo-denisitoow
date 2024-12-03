@@ -5,7 +5,7 @@ body{
     color: antiquewhite;
 }
 header{
-    background-color: rgb(235, 16, 16);
+    background-color: black;
     padding: 1px;
     text-align: center;
     position: sticky; 
@@ -52,6 +52,7 @@ article{
     text-align: center;
     border-radius: 10px;
     max-width: 195px;
+    margin-bottom: 20px;
 }
 article img{
     max-width: 100%;
@@ -90,10 +91,20 @@ article a:hover{
     height: 100px;
     width: 100px;
 }
+aside{
+    float: left;
+    background-color: aliceblue;
+    height: 500px;
+    width: 300px;
+    margin-top: 50px;
+}
+#series .articulos{
+    justify-content: center;
+}
 footer{
     background-color: whitesmoke;
     color: black;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    
 }
