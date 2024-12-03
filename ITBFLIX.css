@@ -133,6 +133,9 @@ aside p{
     margin-bottom: 1px;
     padding: 1px;
 }
+aside h3{
+    background-color: aliceblue;
+}
 #series .articulos{
     justify-content: center;
 }
