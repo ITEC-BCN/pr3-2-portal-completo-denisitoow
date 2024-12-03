@@ -10,6 +10,7 @@ header{
     text-align: center;
     position: sticky; 
     top: 0;
+    z-index: 1000;
 }
 header h1{
     color: #ff2e1f;
@@ -32,7 +33,7 @@ header a:hover{
 }
 section h2{
     color: #E03C31;
-    padding-left: 30px;
+    padding-left: 50px;
     margin-bottom: 10px;
     padding-top: 10px;
     text-align: center;
@@ -48,7 +49,7 @@ section h2{
 article{
     text-align: center;
     border-radius: 10px;
-    max-width: 195px;
+    max-width: 200px;
     margin-bottom: 20px;
 }
 article img{
@@ -67,10 +68,15 @@ article p{
     text-align: justify;
     padding: 5px;
 }
+.genero{
+    display: flex;
+    background-color: rgb(255, 74, 74);
+    border-radius: 5px;
+}
 article a{
     display: flex;
     padding: 5px;
-    background-color: #E03C31;
+    background-color: rgb(255, 74, 74);
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -101,27 +107,47 @@ article a:hover{
 }
 aside{
     float: left;
-    background-color: aliceblue;
-    height: 710px;
-    width: 300px;
+    background-color: rgb(255, 74, 74);
+    height: 800px;
+    width: 350px;
+    padding-left: 15px;
+}
+aside h2{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+aside div{
+    width: 100%;
+}
+aside article{
+    width: 95%;
+    color: black;
+    max-width: none;
+}
+aside img{
+    width: 330px;
+    height: 150px;
+}
+aside p{
+    margin-bottom: 1px;
+    padding: 1px;
 }
 #series .articulos{
     justify-content: center;
 }
 .img-contenedor {
     position: relative;
-    display: inline-block;
-    margin-bottom: 10px;
 }
-.img-contenedor img {
+.img-contenedor img{
     width: 100%;
-    height: auto;
+    height: 250px;
     border-radius: 0%;
 }
 .img-contenedor a{
     position: absolute;
     width: 96%;
-    bottom: 2%;
+    bottom: 0%;
     left: 0%; 
     color: aliceblue;
     text-decoration: none;
