@@ -43,7 +43,7 @@ section h2{
 }
 .articulos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 15px;
 }
 article{
@@ -54,7 +54,7 @@ article{
 }
 article img{
     width: 95%;
-    height: auto;
+    height: 200px;
     border-radius: 10px;
 }
 article h3{
@@ -109,7 +109,7 @@ aside{
     float: left;
     background-color: rgb(255, 74, 74);
     height: 800px;
-    width: 350px;
+    width: 400px;
     padding-left: 15px;
 }
 aside h2{
@@ -137,7 +137,7 @@ aside h3{
     background-color: aliceblue;
 }
 #series .articulos{
-    justify-content: center;
+    justify-content: space-around;
 }
 .img-contenedor {
     position: relative;
