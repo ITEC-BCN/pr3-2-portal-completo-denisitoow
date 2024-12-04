@@ -29,7 +29,7 @@ header  nav a{
 }
 header  nav a:hover{
     color: aliceblue;
-    background-color: aquamarine;
+    background-color:  rgb(216, 83, 73);;
     border-radius: 10px;
 }
 section h2{
@@ -82,7 +82,8 @@ article a{
     color: aliceblue;
 }
 article a:hover{
-    background-color: aquamarine; 
+    background-color: aliceblue;
+    color:  rgb(216, 83, 73);; 
 }
 .actores{
     background-color: rgb(255, 74, 74);
