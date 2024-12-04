@@ -12,21 +12,22 @@ header{
     top: 0;
     z-index: 1000;
 }
-header h1{
+header h1 a{
     color: #ff2e1f;
+    text-decoration: none;
 }
 header ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
-header a{
+header  nav a{
     text-decoration: none;
     color: rgb(216, 83, 73);
     font-weight: bold;
     padding: 10px ;
 }
-header a:hover{
+header  nav a:hover{
     color: aliceblue;
     background-color: aquamarine;
     border-radius: 10px;
