@@ -36,6 +36,7 @@ section h2{
     padding-left: 50px;
     margin-bottom: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 .articulos{
@@ -82,22 +83,22 @@ article a{
 article a:hover{
     background-color: aquamarine; 
 }
-#actores{
+.actores{
     background-color: rgb(255, 74, 74);
     color: aliceblue;
 }
-#actores h2{
+.actores h2{
     color: black;
 }
-#actores p{
+.actores p{
    text-align: center;
 }
-#actores img{
+.actores img{
     border-radius: 50%;
     height: 150px;
     width: 150px;
 }
-#actores h3{
+.actores h3{
     background-color: rgb(255, 74, 74);
     justify-content: center;
     font-weight: bold;
@@ -133,7 +134,7 @@ aside p{
 aside h3{
     background-color: aliceblue;
 }
-#series .articulos{
+.series .articulos{
     justify-content: space-around;
 }
 .img-contenedor {
@@ -160,11 +161,11 @@ footer{
     text-align: center;
     padding: 10px;
 }
-#loMasVisto{
+.loMasVisto{
     background-color: rgb(255, 74, 74);
     clear: both;
 }
-#loMasVisto h2{
+.loMasVisto h2{
     color: black;
 }
 .articulosEspeciales{
