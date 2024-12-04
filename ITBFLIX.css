@@ -11,6 +11,7 @@ header{
     position: sticky; 
     top: 0;
     z-index: 1000;
+    padding-bottom: 15px;
 }
 header h1 a{
     color: #ff2e1f;
@@ -19,7 +20,7 @@ header h1 a{
 header ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 header  nav a{
     text-decoration: none;
@@ -39,6 +40,10 @@ section h2{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+h2 a{
+    color: #ff2e1f;
+    text-decoration: none;
 }
 .articulos{
     display: flex;
@@ -89,7 +94,7 @@ article a:hover{
     background-color: rgb(255, 74, 74);
     color: aliceblue;
 }
-.actores h2{
+.actores h2 a{
     color: black;
 }
 .actores p{
@@ -112,7 +117,7 @@ aside{
     width: 350px;
     padding-left: 15px;
 }
-aside h2{
+aside h2 a{
     color: black;
     text-align: center;
     font-size: xx-large;
@@ -167,7 +172,7 @@ footer{
     background-color: rgb(255, 74, 74);
     clear: both;
 }
-.loMasVisto h2{
+.loMasVisto h2 a{
     color: black;
 }
 .articulosEspeciales{
