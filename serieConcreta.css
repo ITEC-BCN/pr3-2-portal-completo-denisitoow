@@ -24,13 +24,12 @@ section h1 {
 }
 
 .descripcion h2 {
-    font-size: 1.8em;
+    font-size: 8px;
     margin-bottom: 10px;
 }
 
 .descripcion p {
     font-size: 1em;
-    line-height: 1.6;
     margin-bottom: 10px;
 }
 
