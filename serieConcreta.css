@@ -1,0 +1,45 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+
+section h1 {
+    color: red;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.gossip-Girl {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.descripcion {
+    flex: 1;
+}
+
+.descripcion h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100;
+    border-radius: 10px;
+}

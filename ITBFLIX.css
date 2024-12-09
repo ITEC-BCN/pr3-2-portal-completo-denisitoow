@@ -1,83 +1,48 @@
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: aliceblue;
-}
-header{
-    background-color: black;
-    padding: 1px;
-    text-align: center;
-    position: sticky; 
-    top: 0;
-    z-index: 1000;
-    padding-bottom: 15px;
-}
-header h1 a{
-    color: #ff2e1f;
-    text-decoration: none;
-}
-header ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-header  nav a{
-    text-decoration: none;
-    color: rgb(216, 83, 73);
-    font-weight: bold;
-    padding: 10px ;
-}
-header  nav a:hover{
-    color: aliceblue;
-    background-color:  rgb(216, 83, 73);;
-    border-radius: 10px;
-}
-section h2{
+section h2 {
     color: #E03C31;
-    padding-left: 50px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 10px 50px;
     text-align: center;
 }
-h2 a{
-    color: #ff2e1f;
-    text-decoration: none;
-}
-.articulos{
+
+.articulos {
     display: flex;
     justify-content: space-around;
-    gap: 1px;
+    gap: 15px;
 }
-article{
+
+article {
     text-align: center;
     border-radius: 10px;
-    max-width: 200px;
     margin-bottom: 20px;
 }
-article img{
+
+article img {
     width: 95%;
     height: 200px;
     border-radius: 10px;
 }
-article h3{
-    margin-top: 0%;
+
+article h3 {
+    margin-top: 0;
 }
-article h3 a{
+
+article h3 a {
     display: flex;
     background-color: red;
 }
-article p{
+
+article p {
     text-align: justify;
     padding: 5px;
 }
-.genero{
+
+.genero {
     display: flex;
     background-color: rgb(255, 74, 74);
     border-radius: 5px;
 }
-article a{
+
+article a {
     display: flex;
     padding: 5px;
     background-color: rgb(255, 74, 74);
@@ -86,114 +51,126 @@ article a{
     border-radius: 5px;
     color: aliceblue;
 }
-article a:hover{
+
+article a:hover {
     background-color: aliceblue;
-    color:  rgb(216, 83, 73);; 
+    color: rgb(216, 83, 73);
 }
-.actores{
+
+.actores {
     background-color: rgb(255, 74, 74);
     color: aliceblue;
 }
-.actores h2 a{
+
+.actores h2{
     color: black;
 }
-.actores p{
-   text-align: center;
+
+.actores p {
+    text-align: center;
 }
-.actores img{
+
+.actores img {
     border-radius: 50%;
-    border: solid black 5px;
-    height: 150px;
-    width: 150px;
+    border: 5px solid black;
+    height: 140px;
+    width: 140px;
 }
-.actores h3{
+
+.actores h3 {
     background-color: rgb(255, 74, 74);
-    justify-content: center;
     font-weight: bold;
 }
-aside{
+
+aside {
     float: left;
     background-color: rgb(255, 74, 74);
     height: 850px;
     width: 350px;
     padding-left: 15px;
 }
-aside h2{
+
+aside h2 {
     text-align: center;
-}
-aside h2 a{
     color: black;
     font-size: xx-large;
 }
-aside div{
+
+aside div {
     width: 100%;
 }
-aside article{
+
+aside article {
     width: 95%;
     color: black;
-    max-width: none;
+
 }
-aside img{
+
+aside img {
     width: 330px;
     height: 150px;
 }
-aside p{
-    margin-bottom: 1px;
+
+aside p {
+    margin: 0;
     padding: 1px;
 }
-aside h3{
-    background-color: aliceblue;
-}
-.series .articulos{
+
+.series .articulos {
     justify-content: space-around;
 }
+
+.series article {
+    width: 200px;
+}
+
 .img-contenedor {
     position: relative;
 }
-.series h3{
+
+.series h3 {
     display: inline;
     background-color: rgb(255, 74, 74);
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
-.img-contenedor img{
+
+.img-contenedor img {
     width: 100%;
     height: 250px;
-    border-radius: 0%;
 }
-.img-contenedor a{
+
+.img-contenedor a {
     position: absolute;
     width: 96%;
-    bottom: 0%;
-    left: 0%; 
+    bottom: 0;
+    left: 0; 
     color: aliceblue;
     text-decoration: none;
-    border-radius: 0%;
     padding: 4px;
 }
-footer{
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    padding: 10px;
-}
-.loMasVisto{
+
+.loMasVisto {
     background-color: rgb(255, 74, 74);
     clear: both;
 }
-.loMasVisto h2 a{
+
+.loMasVisto h2{
     color: black;
 }
-.articulosEspeciales{
+
+.articulosEspeciales {
     display: flex;
     justify-content: space-around;
 }
-.articulosEspeciales img{
+
+.articulosEspeciales img {
     width: 100px;
     height: 150px;
     border-radius: 10px;
 }
-.articulosEspeciales h3{
+
+.articulosEspeciales h3 {
     background-color: rgb(255, 74, 74);
-    justify-content: center;
+    text-align: center;
 }

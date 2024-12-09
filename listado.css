@@ -1,0 +1,39 @@
+.articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #ff2e1f;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+footer {
+    margin-top: 30px;
+}
